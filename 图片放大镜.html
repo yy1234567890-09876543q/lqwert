@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <title>落下的忧愁</title>
+    <style>
+        /* photo标签加样式 */
+        #photo{
+            width: 760px;
+            height: 400px;
+             background-color: blue;/*盒子距离上面100像素，左右自动居中 */
+            margin: 100px auto;/*内容对齐，居中*/
+        }
+#photo img{
+    width: 250px; 
+    height: 200px;
+    
+}
+#photo img:hover{
+    /* 缩放到原来的x倍 */
+transform: scale(2);
+/* 2s内完成 */
+transition: 1.5s;
+}
+
+    </style>
+
+</head>
+<body>
+<h1 align="center" style="color: blue;">图片放大镜</h1>
+<p align="center">作者：<mark>🌈༺ཌ༈落下的忧愁༈ད༻</mark></p>
+
+<div id="photo">
+   <img src="img/6.jpeg" alt="">
+   <img src="img/5.jpg" alt="">
+   <img src="img/3.jpg" alt="">
+   <img src="img/4.png" alt="">
+   <img src="img/4.jpg" alt="">
+   <img src="img/2.png" alt="">
+
+</div>
+
+
+
+    
+</body>
+</html>
